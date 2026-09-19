@@ -58,6 +58,74 @@
     "moreinfo": "none",
     "provider": ""
   },
+  "move": {
+    "selection": "single",
+    "layouts": {
+      "single": {
+        "grid": [
+          [
+            "time"
+          ],
+          [
+            "main"
+          ],
+          [
+            "searchbar"
+          ],
+          [
+            "quicklinks"
+          ]
+        ],
+        "items": {}
+      },
+      "double": {
+        "grid": [
+          [
+            "time",
+            "."
+          ],
+          [
+            "main",
+            "."
+          ],
+          [
+            "searchbar",
+            "."
+          ],
+          [
+            "quicklinks",
+            "."
+          ]
+        ],
+        "items": {}
+      },
+      "triple": {
+        "grid": [
+          [
+            "time",
+            ".",
+            "."
+          ],
+          [
+            "main",
+            ".",
+            "."
+          ],
+          [
+            "searchbar",
+            ".",
+            "."
+          ],
+          [
+            "quicklinks",
+            ".",
+            "."
+          ]
+        ],
+        "items": {}
+      }
+    }
+  },
   "links0001w8": {
     "_id": "links0001w8",
     "parent": "常用",
