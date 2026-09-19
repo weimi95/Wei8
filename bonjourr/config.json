@@ -51,16 +51,12 @@
   },
   "weather": {
     "unit": "metric",
-    "show_unit": false,
-    "geolocation": "off",
-    "forecast": "never",
+    "show_unit": true,
+    "geolocation": "approximate",
+    "forecast": "auto",
     "temperature": "actual",
     "moreinfo": "none",
     "provider": ""
-  },
-  "hide": {
-    "weathericon": true,
-    "weatherdesc": true
   },
   "links0001w8": {
     "_id": "links0001w8",
