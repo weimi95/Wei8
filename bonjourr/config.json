@@ -8,6 +8,8 @@
   "dateformat": "cn",
   "announcements": "off",
   "quicklinks": true,
+  "time": true,
+  "main": true,
   "linkgroups": {
     "on": true,
     "selected": "常用",
@@ -24,28 +26,41 @@
   },
   "searchbar": {
     "on": true,
-    "engine": "baidu",
-    "placeholder": "搜索",
-    "suggestions": true,
     "newtab": false,
-    "opacity": 0.1
+    "engine": "baidu",
+    "request": "",
+    "opacity": 0.15,
+    "suggestions": false,
+    "placeholder": "搜索"
   },
   "backgrounds": {
     "type": "color",
+    "frequency": "hour",
+    "fadein": 600,
+    "bright": 0.8,
+    "blur": 0,
     "color": "#1B2A33",
+    "urls": "",
+    "images": "bonjourr-images-daylight",
+    "videos": "bonjourr-videos-daylight",
+    "mute": true,
+    "queries": {},
     "texture": {
       "type": "none"
     }
   },
   "weather": {
+    "unit": "metric",
+    "show_unit": false,
     "geolocation": "off",
     "forecast": "never",
+    "temperature": "actual",
     "moreinfo": "none",
-    "show_unit": false
+    "provider": ""
   },
   "hide": {
-    "weatherdesc": true,
-    "weathericon": true
+    "weathericon": true,
+    "weatherdesc": true
   },
   "links0001w8": {
     "_id": "links0001w8",
