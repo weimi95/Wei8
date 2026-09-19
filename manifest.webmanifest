@@ -1,0 +1,23 @@
+{
+  "name": "Wei8 导航",
+  "short_name": "Wei8",
+  "description": "简洁的自定义新标签页 / 导航主页",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#15181c",
+  "theme_color": "#15181c",
+  "icons": [
+    {
+      "src": "icon/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icon/icon-128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    }
+  ]
+}
